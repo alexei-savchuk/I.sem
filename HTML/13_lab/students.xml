@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='attestation.xsl'?>
+<!--Подключаем наш xsl-->
+<!DOCTYPE students SYSTEM "student.dtd">
+<!--dtd для нашиъ тегов -->
+<students>
+<!--    Главный тег-->
+    <student id="1">
+<!--        id нужен, потому что у нас одинаковый тег student-->
+        <kyar_mark>8</kyar_mark>
+        <alovs_mark>6</alovs_mark>
+        <analis_mark>7</analis_mark>
+        <syap_mark>9</syap_mark>
+        <trpo_mark>6</trpo_mark>
+        <oaip_mark>5</oaip_mark>
+        <geometry_mark>6</geometry_mark>
+        <eng_mark>4</eng_mark>
+        <PE_mark>6</PE_mark>
+        <name>Авласенко</name>
+    </student>
+    <student id="2">
+        <kyar_mark>7</kyar_mark>
+        <alovs_mark>6</alovs_mark>
+        <analis_mark>7</analis_mark>
+        <syap_mark>9</syap_mark>
+        <trpo_mark>6</trpo_mark>
+        <oaip_mark>9</oaip_mark>
+        <geometry_mark>4</geometry_mark>
+        <eng_mark>5</eng_mark>
+        <PE_mark>0</PE_mark>
+        <name>Артамонов</name>
+    </student>
+    <student id="3">
+        <kyar_mark>4</kyar_mark>
+        <alovs_mark>5</alovs_mark>
+        <analis_mark>4</analis_mark>
+        <syap_mark>4</syap_mark>
+        <trpo_mark>8</trpo_mark>
+        <oaip_mark>7</oaip_mark>
+        <geometry_mark>4</geometry_mark>
+        <eng_mark>7</eng_mark>
+        <PE_mark>7</PE_mark>
+        <name>Батура</name>
+    </student>
+    <student id="4">
+        <kyar_mark>3</kyar_mark>
+        <alovs_mark>3</alovs_mark>
+        <analis_mark>2</analis_mark>
+        <syap_mark>3</syap_mark>
+        <trpo_mark>3</trpo_mark>
+        <oaip_mark>5</oaip_mark>
+        <geometry_mark>2</geometry_mark>
+        <eng_mark>0</eng_mark>
+        <PE_mark>0</PE_mark>
+        <name>Борисевич</name>
+    </student>
+</students>

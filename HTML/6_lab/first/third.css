@@ -1,0 +1,27 @@
+div{
+    width: 175px;
+    height: 175px;
+    padding: 2%; /* Поля */
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+}
+.d1{
+    background-image: linear-gradient(to top, red, blue);
+}
+.d2{
+background: repeating-linear-gradient( 45deg, red, red 15px, #465298 15px, #465298 30px);
+}
+.d3{
+    background-image: radial-gradient(rgb(0, 255, 0), rgb(4, 102, 36));
+}
+.d4{
+    background-image: repeating-radial-gradient( green, green 20px, yellow 20px, yellow 40px);
+}
+.d5{
+    background-image:  radial-gradient(yellow, green, transparent ),  linear-gradient(blue, deeppink);
+}
+.d6{
+    background-image:  linear-gradient(to right, yellow, green, transparent),  linear-gradient(to top, violet 15% , blue 30% , white 40%, black 95% );
+}
+

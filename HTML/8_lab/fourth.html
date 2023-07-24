@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>4</title>
+    <style>
+        * {
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        nav li ul {
+            display: none;
+            position: absolute;
+        }
+
+        nav li:hover ul {
+            display: block;
+        }
+
+        div {
+            padding: 5px 10px;
+        }
+
+        .drop {
+            width: 160px;
+            border: 1px solid black;
+        }
+
+        .button {
+            width: 160px;
+            border: 1px solid black;
+            text-align: center;
+            background: url(facultet.png) no-repeat 0 0px;
+        }
+
+            .button:hover {
+                background-position: 0 0px;
+            }
+
+
+
+        .button1 {
+            width: 160px;
+            border: 1px solid black;
+            text-align: center;
+            background: url(facultet.png) no-repeat 0 0px;
+        }
+
+            .button1:hover {
+                background-position: 0 -30px;
+            }
+
+
+        .button2 {
+            width: 160px;
+            border: 1px solid black;
+            text-align: center;
+            background: url(facultet.png) no-repeat 0 0px;
+        }
+
+            .button2:hover {
+                background-position: 0 -60px;
+            }
+
+
+        .button3 {
+            width: 160px;
+            border: 1px solid black;
+            text-align: center;
+            background: url(facultet.png) no-repeat 0 0px;
+        }
+
+            .button3:hover {
+                background-position: 0 -90px;
+            }
+        a {
+            color: black;
+        }
+
+        div:hover {
+            background-color: green;
+            opacity: 0.5;
+        }
+        nav {
+            display: inline-block;
+            position: relative;
+            
+        }
+
+        img {
+            float:left;
+            width:20px;
+            height:20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <nav class="nav">
+        <ul>
+            <li>
+                <a><a href="https://www.belstu.by/"><div class="button">  БГТУ </div></a></a>
+
+            </li>
+        </ul>
+    </nav>
+
+
+    <nav class="nav">
+        <ul>
+            <li>
+                <div class="button1"> ИТ </div>
+                <ul>
+                    <li><div class="drop"> <a href="https://isit.belstu.by/">ИСиТ</a></div></li>
+                    <li><div class="drop"> <a href="#">ПОиТ</a></div></li>
+                    <li><div class="drop"> <a href="#">ПОиБМС</a></div></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+
+    <nav class="nav">
+        <ul>
+            <li>
+                <div class="button2"> ПиМ </div>
+           
+            </li>
+        </ul>
+    </nav>
+
+
+    <nav class="nav">
+        <ul>
+            <li>
+                <div class="button3"> ХТиТ </div>
+           
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

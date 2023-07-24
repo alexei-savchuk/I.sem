@@ -1,0 +1,15 @@
+   
+   figure{
+    display: inline-block;
+    width: 15%; /* Ширина */
+    background: #f0f0f0; /* Цвет фона */
+    border-radius: 5px; /* Радиус скругления */
+    padding: 2%; /* Поля */
+   }
+   figcaption{
+    text-align: center;
+   }
+   img{
+    height: 100%;
+    width: 100%;
+   }

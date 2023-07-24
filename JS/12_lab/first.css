@@ -1,0 +1,19 @@
+div{
+    display: flex;
+    margin-top: 2%;
+    
+}
+button{
+background-color: rgb(255, 251, 0);
+box-shadow: inset -5px -5px 5px black;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+border-radius: 15px;
+background-color: yellow;
+width: 400px;
+height: 100px;
+display:inline-block;
+margin-left: auto; 
+margin-right: auto;
+cursor: pointer;
+}

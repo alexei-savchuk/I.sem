@@ -1,0 +1,43 @@
+#div1{
+    border:2px solid black;
+}
+ul.nav a {
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    padding:0px;
+    background-color: rgb(240, 240, 240);
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+ul.nav {
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+}
+.nav li {
+    display: inline;
+    margin:-4px;
+}
+img{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 90px;
+    height: 90px;    
+}
+.spisok{
+    margin-left: 30px;
+}
+h4{
+    margin-left: 15px;
+}
+p{
+    margin-left: 15px;
+}

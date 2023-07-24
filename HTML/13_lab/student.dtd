@@ -1,0 +1,14 @@
+<!ELEMENT students (student*)>
+<!ELEMENT student (kyar_mark, alovs_mark, analis_mark, syap_mark, trpo_mark, oaip_mark, geometry_mark, eng_mark, PE_mark, name)>
+<!ELEMENT kyar_mark (#PCDATA)>
+<!ELEMENT alovs_mark (#PCDATA)>
+<!ELEMENT analis_mark (#PCDATA)>
+<!ELEMENT syap_mark (#PCDATA)>
+<!ELEMENT trpo_mark (#PCDATA)>
+<!ELEMENT oaip_mark (#PCDATA)>
+<!ELEMENT geometry_mark (#PCDATA)>
+<!ELEMENT eng_mark (#PCDATA)>
+<!ELEMENT PE_mark (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST student id CDATA #REQUIRED>
+<!--Адд лист для id, ну тут понятно-->

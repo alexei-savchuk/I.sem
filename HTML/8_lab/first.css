@@ -1,0 +1,45 @@
+aside {
+    width: 10%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+a:link{
+   
+    color:#ff0000;
+}
+a:hover{
+    color:#4cff00;
+}
+a:active{
+    color:rgb(184,134,11);
+    
+}
+a:visited{
+    color:#8b0000;
+    
+}
+
+p{
+    text-align:left;
+    text-align:justify;
+}
+li {
+    list-style-type: none; 
+}
+div{
+    text-align:right;
+}

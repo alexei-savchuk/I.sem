@@ -1,0 +1,50 @@
+body{
+    width: 90%;
+    height: 100px;
+}
+.grid { 
+    margin-left: auto;
+    margin-right: auto; 
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-template-rows: repeat(4, auto);
+    grid-gap: 3%;
+    width: 75%;
+    height: auto;
+    }
+
+   
+
+    .div9 {
+        width: auto;
+        height: auto;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        grid-column-start: 4;
+        grid-column-end: 6;
+    }
+
+    .div10 {
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        position: relative;       
+    }
+    figure{
+
+        display: inline-block;
+        width: 100%; /* Ширина */
+        height: auto;
+        background: #6d6868; /* Цвет фона */
+        border-radius: 5px; /* Радиус скругления */
+        padding: 1%; /* Поля */
+       }
+       figcaption{
+        text-align: center;
+      
+       }
+       img{
+        height: 90%;
+        width: 90%;
+       }

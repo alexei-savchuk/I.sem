@@ -1,0 +1,16 @@
+
+var num1= (6-Math.pow(Math.PI,2)+(3*Math.pow(Math.E,8)))
+var num2= (2*Math.cos(4)+Math.cos(12)+8-Math.pow(Math.E,3))
+var num3= (3*Math.sin(9)+Math.log(5)+Math.sqrt(3))
+var num4= (2*Math.tan(5+6-Math.PI+Math.sqrt(12)))
+var arr = [num1, num2, num3, num4];
+console.log(arr[0])            
+console.log(arr[1])              
+console.log(arr[2]) 
+console.log(arr[3])
+const max = Math.max(...arr)
+const min = Math.min(...arr)
+console.log("max:")
+console.log(max)
+console.log("min:")
+console.log(min)

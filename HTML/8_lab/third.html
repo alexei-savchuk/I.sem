@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>3</title>
+    <style>
+
+        * {
+            list-style-type: none;
+            text-decoration: none;
+        }
+
+        ul {
+            padding:0;
+        }      
+
+        nav li ul {
+            display: none;
+        }
+
+        nav li:hover ul {
+            display: block;
+        }
+
+        div {
+            padding: 5px 10px;
+            display:inline-block;
+
+        }
+
+        .drop {
+            width: 80px;
+            background-color: orange;
+            border: 2px dashed black;
+        }
+
+        .button {
+            width: 160px;
+            background-color:yellow;
+            border:2px solid black;
+        }
+
+        a {
+            color:black;
+        }
+
+        div:hover {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav class="nav">
+        <ul>
+            <li>
+                <div class="button"> Меню </div>
+                     <ul>
+                             <li><div class="drop"> <a href="../5_lab/2.html">Форма</a></div></li>
+                             <li><div class="drop"> <a href="../5_lab/4.html">Шахматная доска</a></div></li>
+                             <li><div class="drop"> <a href="../6_lab/first/second.html">Фотогалерея</a></div></li>
+                    </ul>
+            </li>
+         </ul>
+    </nav>
+</body>
+</html>     

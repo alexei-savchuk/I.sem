@@ -1,0 +1,36 @@
+table{
+    border-collapse:collapse; 
+    border-color: black;
+}
+.td{
+    width:30px;
+    font-size: 12px;
+    font-weight:bold;
+}
+.p{
+    background-color:rgb(0, 189, 142);
+     text-align: center;
+     writing-mode: vertical-rl;
+     font-weight:bold;
+  
+}
+.td1{
+    background-color: aqua;
+    font-weight:bold;
+}
+.dni{
+    text-align: center;
+    background-color: rgb(0, 189, 142);
+    writing-mode: vertical-rl;
+    width: 10px;
+    font-weight:bold;
+}
+.pr{
+    text-align: center;
+    font-weight:bold;
+}
+.ned{
+    text-align:center;
+    font-weight: bold;
+}
+

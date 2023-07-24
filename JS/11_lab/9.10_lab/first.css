@@ -1,0 +1,56 @@
+h1{
+    box-shadow: inset 0 0 10px #000000;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    background-color: rgb(238, 255, 0);
+}
+.h1_2{
+    margin-top: 300px;
+}
+body{
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#sun1 {
+    position: relative;
+    cursor: pointer;
+  }
+#sun2 {
+    position: relative;
+    cursor: pointer;
+  }
+.h3{
+    margin-top: 250px;
+}
+button {
+        width: 80px;
+        height: 30px;
+        background-color: yellow;
+}
+.menu-item{
+    border: 2px solid #66CDAA;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.menu-item .submenu{
+    height: 40px;
+    width: 120px;
+    background: rgb(140, 140, 140);
+    position: absolute;
+    cursor: pointer;
+}
+.fourth{
+    display: flex;
+    margin-left:35%;
+}
+#nav{
+    margin-bottom: 200px;
+}
+    
+
+

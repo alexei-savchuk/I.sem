@@ -1,0 +1,27 @@
+ul{
+margin-left: 50px;
+list-style-image: url('logoll.png');
+}
+body{
+    font-size: 25px;
+    background-image: url('fit.png');  
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-size: 300px;
+    background-attachment:fixed;
+}    
+.p1{
+float:left;
+height: 450px;
+}
+.p2{
+float: right;
+height: 650px;
+}
+.a{
+    color:blueviolet;
+    font-size: 55px;
+    background-color: lightsalmon;
+    margin-left: 20%;
+
+}

@@ -1,0 +1,20 @@
+h1,h2 {
+    color:purple;
+    font-family: monospace;
+
+}
+.ul1{
+color: red;
+font-family: Times;
+font-size:18px;
+}
+.ul2{
+    color: yellow;
+    font-family: Times;
+    font-size:20px;
+    }
+    .ul3{
+        color: green;
+        font-family: Times;
+        font-size:22px;
+        }

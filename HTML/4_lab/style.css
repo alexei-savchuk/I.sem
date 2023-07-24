@@ -1,0 +1,111 @@
+.a {
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgb(75, 2, 2) ;
+    border-left-color: red;
+    border-top-color: red ;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+  }
+  .b {
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    border-style: dashed;
+    border-width: 20px;
+    border-color: rgb(35, 222, 21) ;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+  }
+  .c {
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    border-style: dotted;
+    border-width: 20px;
+    border-color: rgb(37, 9, 123) ;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .d {
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    border-style: double;
+    border-width: 20px;
+    border-color: rgb(31, 184, 255) ;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+    }
+  .e {
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    border-style: groove;
+    border-width: 20px;
+    border-color: rgb(125, 16, 131);
+    display: inline-flex;
+    align-items: center;}
+
+  .f {
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    border-style:solid;
+    border-width: 20px;
+    border-color: rgb(91, 95, 15) ;
+    border-bottom-color: rgb(255, 246, 5);
+    border-right-color: rgb(255, 246, 5);
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+    }
+  .g {
+    margin: 10px 10px 10px 10px;
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: rgb(15, 3, 3) ;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    align-items: center;
+    }  
+   h3 {
+    vertical-align: text-bottom;
+    margin: 0 auto;
+  }
+  span{
+    display:block;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    background: #FFA500; 
+    border: solid #FF4500;
+  }
+  .p1 {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto; 
+    background: #FF7F50;
+      }
+    .p2{
+       border: solid 5px red;
+      border-radius: 40px/20px;
+      box-shadow: inset 2px -2px 8px 8px rgba(0,0,0,.5);
+      overflow:auto;
+      }
+    .p3{
+    border: solid #FF6347;
+    }
+p{
+  font-size: larger;
+}
+

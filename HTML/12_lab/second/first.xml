@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="first.css" type="text/css"?>
+<!DOCTYPE students [
+<!ELEMENT students ( head, prop, val,
+property, value)>
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT prop (#PCDATA)>
+<!ELEMENT val (#PCDATA)>
+<!ELEMENT property (#PCDATA)>
+<!ELEMENT value (#PCDATA)>
+<!ENTITY name "Alexei">
+]>
+<students>
+    <head>
+        <prop>property</prop>
+        <val>value</val>
+    </head>
+
+<student>
+<property>name:</property>
+<value>&name;</value>
+</student>
+
+<student>
+<property>surname:</property>
+<value>Savchuk</value>
+</student>
+
+<student>    
+<property>year:</property>
+<value>17 y.o</value>
+</student>
+
+<student>
+<property>univercity</property>
+<value>BSTU</value>
+</student>
+
+<student>
+<property>cours:</property>
+<value>first</value>
+</student>
+
+<student>
+<property>group:</property>
+<value>third</value>
+</student>
+</students>

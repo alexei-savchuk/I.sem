@@ -1,0 +1,21 @@
+.grid {  
+    display: grid;
+    grid-template-columns: 1fr 3fr
+    3fr;
+    grid-template-rows: 10px 10px;
+    grid-gap: 5px;
+    }
+    .div1 { 
+        padding-left: 40%;
+        text-align: center;
+        writing-mode: vertical-lr; 
+        text-orientation: upright; 
+   }
+   .grid>div {
+    border: 1px solid black;
+    height: 150px ;
+
+}
+.div1   > div{
+    width: 200px;
+}

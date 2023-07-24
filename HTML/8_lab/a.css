@@ -1,0 +1,462 @@
+h1 {
+  animation: alphaChanel 1s linear  alternate infinite;
+  text-align:center;
+  font-size: 30px;
+}
+img{
+width: 15%;
+height: 15%;
+margin-left: 8%;
+border-style: solid;
+border: 5px, black;
+}
+.i1:hover{
+   transform: scale(0.5);
+}
+.i2:hover{
+  transform: rotate(45deg);
+ }
+ .i3:hover{
+  transform: translate(50px);
+}
+.i4:hover{
+  transform:skew(-20deg)
+}
+.div1{
+display: flex;
+
+}
+
+/* ЗАДАНИЕ 2 */
+.t{
+  margin-left: 4%;
+perspective: 600px;
+perspective-origin: center bottom;
+height: 200px;
+width: 200px;
+}
+
+
+
+.t21{
+  transform: rotateX(45deg);
+  height: 150px;
+  width: 150px;
+ }
+ .t22{
+  transform: rotateY(45deg);
+  height: 150px;
+  width: 150px;
+  }
+ .t23{
+  transform: rotateX(45deg);
+  height: 150px;
+  width: 150px;
+ }
+ .t24{
+  transform: rotateY(-45deg);
+  height: 150px;
+  width: 150px;
+  }
+ /* ЗАДАНИЕ 3 */
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: #000000; 
+    border: 2px solid black;
+  }
+  
+  .button1:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+  }
+  
+  .button2:hover {
+    background-color: white;
+    color: black;
+    border: 5px solid red;
+    outline: 5px solid yellow;
+  }
+  
+  .button3 {
+    border-color: black;
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+  }
+  
+  .button3:hover {
+    border: none;
+    background-color: #ffffff;
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+  
+  .button4:hover {
+    border: none;
+    background-color: #ffffff;
+    border-left: 5px solid blue;
+    border-right: 5px solid blue;
+  }
+  .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    
+}
+   
+  .button5:hover {
+    border: none;
+            background-image: radial-gradient(ellipse at 50% 50%, yellow, red, violet, #00bfff);
+  }
+  /* ЗАДАНИЕ 4 */
+  img {
+    width: 100px;
+    height: 100px;
+}
+
+figcaption {
+    color: #ffffff;
+    writing-mode: vertical-rl;
+    position: relative;
+    top: 50px;
+}
+
+.z4 {
+    perspective: 600px;
+    perspective-origin: 50% 10%;
+    
+}
+
+    .z4 figure {
+        height: 300px;
+        display: inline-block;
+        animation: diving 6s linear infinite;
+        
+    }
+
+.fi1 {
+    animation: img1 6s linear infinite;
+}
+
+.fi2 {
+    animation: img2 6s linear infinite;
+}
+
+.fi3 {
+    animation: img3 6s linear infinite;
+}
+
+@keyframes img1 {
+    0% {
+        margin: 0px;
+        width: 20px;
+        transform: rotateY(40deg);
+    }
+
+    50%{
+        margin: 5px;
+        width: 20px;
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        margin: 10px;
+        width: 160px;
+        filter: blur(2px);
+    }
+}
+@keyframes img2 {
+    0% {
+        margin: 0px;
+        width: 20px;
+        transform: rotateY(40deg);
+    }
+
+    50%{
+        margin: 5px;
+        width: 20px;
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        margin: 10px;
+        width: 160px;
+        filter: grayscale(1);
+    }
+}
+@keyframes img3 {
+    0% {
+        margin: 0px;
+        width: 20px;
+        transform: rotateY(40deg);
+    }
+
+    50%{
+        margin: 5px;
+        width: 20px;
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        margin: 10px;
+        width: 160px;
+        filter: invert(1);
+    }
+}
+@keyframes diving {
+    0% {
+        margin: 0px;
+        width: 20px;
+        transform: rotateY(40deg);
+    }
+
+    50%{
+        margin: 5px;
+        width: 20px;
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        margin: 10px;
+        width: 160px;
+    }
+}
+
+
+@keyframes alphaChanel {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }   
+}
+/* ЗАДАНИЕ 5 */
+.img_div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #ff6a00;
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: image 10s linear infinite;
+}
+
+@keyframes image {
+  0%, 10%, 100% {
+      background-image: url(p1.jpg);
+  }
+
+  20%, 30% {
+      background-image: url(p2.jpg);
+  }
+
+  40%, 50% {
+      background-image: url(p3.jpg);
+  }
+
+  60%, 70% {
+      background-image: url(p4.jpg);
+  }
+
+  80%, 90% {
+      background-image: url(p5.jpg);
+  }
+}
+
+@keyframes alphaChanel {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }   
+}
+/* ЗАДАНИЕ 6 */
+
+
+        .img_1 {
+            animation: img_1 3s linear infinite;
+        }
+
+        @keyframes img_1 {
+            0% {
+                transform: translateX(0px);
+            }
+
+            100% {
+                transform: rotateZ(45deg);
+                transform: translateX(200px);
+            }
+        }
+
+        .img_2 {
+            animation: img_2 3s linear infinite;
+        }
+
+        @keyframes img_2 {
+            0% {
+                transform: translateX(0px) skew(0deg);
+            }
+
+            100% {
+                transform: translate(200px, 200px) skew(45deg);
+            }
+        }
+
+        .img_3 {
+            animation: img_3 6s linear infinite;
+        }
+
+        @keyframes img_3 {
+            0% {
+                transform: translateX(-800px);
+            }
+
+            100% {
+                transform: translateX(800px);
+            }
+        }
+
+        .img_4 {
+            animation: img_4 2s linear infinite;
+        }
+
+        @keyframes img_4 {
+            0% {
+                transform: translateY(0px);
+            }
+
+            100% {
+                transform: translateY(50px);
+            }
+        }
+
+        .img_5 {
+            position: relative;
+            animation: img_5 2s linear infinite;
+        }
+
+        @keyframes img_5 {
+            0%, 100% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 200px;
+                top: 0px;
+            }
+
+            50% {
+                left: 200px;
+                top: 200px;
+            }
+
+            75% {
+                left: 0px;
+                top: 200px;
+            }
+        }
+
+        @keyframes alphaChanel {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }   
+        }
+        /* ЗАДАНИЕ 7 */
+        .last {
+          width: 300px;
+          height: 300px;
+      }
+        p {
+          animation: coloring 5s linear infinite;
+      }
+
+      @keyframes coloring {
+          0% {
+              color: #ff0000;
+          }
+
+          25% {
+              color: #ffd800
+          }
+
+          50% {
+              color: #00ff21
+          }
+
+          75% {
+              color: #0026ff
+          }
+
+          100% {
+              color: #ff0000;
+          }
+      }
+      h3 {
+          animation: alphaChanel 1s linear  alternate infinite;
+          font-size: 30px;
+      }
+
+      @keyframes alphaChanel {
+          0% {
+              opacity: 0;
+          }
+          100% {
+              opacity: 1;
+          }   
+      }
+      ul.nav a {
+        display: inline-block;
+        width: 100px;
+        height: 20px;
+        padding:0px;
+        background-color: yellow;
+        border: 2px solid green;
+        text-decoration: none;
+        color: green;
+        text-align: center;
+    }
+    ul.nav {
+        margin-left: 0px;
+        padding-left: 0px;
+        list-style: none;
+    }
+    .nav li {
+        display: inline;
+        margin:-4px;
+    }
+    .margin_left{
+        margin-left: 40px;
+    }
+
+    

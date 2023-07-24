@@ -1,0 +1,33 @@
+table {
+    background-color: indigo;
+    margin-left:auto;
+    margin-right:auto;
+  font-size: 1.2em;
+  border-spacing: 10px 15px;
+}
+tr{border: 0px;
+    height: 15px;
+}
+td{
+  color: rgba(255,255,255,1);
+}
+input{
+  background-color: rgba(255,255,255,.5);
+  box-shadow: inset 0 0 10px rgba(255,255,255, .75)
+}
+input:focus{
+  color:black;
+  background: black;
+}
+.data{
+  background-color: white;
+}
+.reg {
+  color: white;
+  background: navy;
+  box-shadow: 0 0 4px white;
+}
+.email:focus{
+  background-color: rgba(255,255,255,.5);
+  box-shadow: inset 0 0 10px rgba(255,255,255, .75)
+} 

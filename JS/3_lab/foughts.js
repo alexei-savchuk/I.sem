@@ -1,0 +1,18 @@
+var string1 = 'Savchuk Alexei Mikhailovich' .toLowerCase()
+document.write(string1)
+document.write(' ')
+document.write('Символов в строке=')
+document.write(string1.length)
+document.write(' ')
+var string2 = 'Savchuk Alexei Mikhailovich' .toUpperCase()
+document.write(string2)
+document.write(' ')
+document.write('Символов в строке=')
+document.write(string1.length)
+const string = string1.concat(string2);
+document.write(' ')
+document.write(string)
+document.write(' ')
+var fio = 'Savchuk Alexei Mikhailovich'
+var newfio =fio.replace('avchuk Alexei Mikhailovich', 'SAM')
+document.write(newfio)

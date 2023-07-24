@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='style.xsl'?>
+<!DOCTYPE game [
+        <!ELEMENT game (name, developer, year, price)>
+        <!ELEMENT name (#PCDATA)>   
+        <!ELEMENT developer (#PCDATA)>
+        <!ELEMENT year (#PCDATA)>
+        <!ELEMENT price (#PCDATA)>
+        ]>
+<game>
+    <name>Dark Souls 3</name>
+    <developer>Fromsoftware</developer>
+    <year>2016</year>
+    <price>60$</price>
+</game>

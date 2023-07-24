@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first</title>
+    <link rel="stylesheet" href="first.css"></link>
+</head>
+<body>
+  <form name="data">
+        <fieldset>
+            <textarea>Факультет Информационных Технологий</textarea>
+            <br /><input type='text' placeholder="Имя" id='name'/>
+            <br /><input type='text' placeholder="Фамилия" id="lastname" class="input"/><br />
+           Специальность
+            <select id="spec">
+                <option>ПОИТ</option>
+                <option>ИСиТ</option>
+                <option>ПОИБМС</option>
+                <option>ДЭВИ</option>
+              </select>
+             <p>Курс</p>
+             <div id="kurs">
+              <input type="radio" name="contact" value="1">
+              <label for="first">1</label>
+          
+              <input type="radio" name="contact" value="2">
+              <label for="second">2</label>
+          
+              <input type="radio" name="contact" value="3">
+              <label for="third">3</label>
+
+              <input type="radio" name="contact" value="4">
+              <label for="fourth">4</label>
+            </div>
+                
+              <p>Предметы</p>
+              <input type='checkbox' name="space" value="ОИТ"/ >ОИТ
+              <input type='checkbox' name="space" value="ОАП"/>ОАП
+              <input type='checkbox' name="space" value="История"/>История
+              <input type='checkbox' name="space" value="Физика"/>Физика
+              <input type='checkbox' name="space" value="Математика"/>Математика
+              <br><button>submit</button>
+              <button>reset</button>
+              <br><button onclick="get_value()" type="button" id="pechat">Напечатать</button>
+              <input type="button" value="список" onclick='newForm()'>
+        </fieldset>
+      </form>
+      <div style="text-align:center" id="answer"></div>
+      <div id="new_form"></div> 
+        <script src="first.js"></script>
+</body>
+</html>
